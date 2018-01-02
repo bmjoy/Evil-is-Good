@@ -225,6 +225,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AlwaysStayY.cs" />
+    <Compile Include="Assets\Quit.cs" />
     <Compile Include="Assets\RTS_Camera\Scripts\RTS_Camera.cs" />
     <Compile Include="Assets\Scripts\FollowCursor.cs" />
     <Compile Include="Assets\Scripts\Light.cs" />
