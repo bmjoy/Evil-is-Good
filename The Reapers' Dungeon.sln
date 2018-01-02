@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Reapers' Dungeon", "The Reapers' Dungeon.csproj", "{D354E616-17F1-0976-4FA0-2A38398F9DBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The Reapers' Dungeon.Editor", "The Reapers' Dungeon.Editor.csproj", "{6657A41E-E043-9FA0-EF22-D4731EB0778C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D354E616-17F1-0976-4FA0-2A38398F9DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D354E616-17F1-0976-4FA0-2A38398F9DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D354E616-17F1-0976-4FA0-2A38398F9DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D354E616-17F1-0976-4FA0-2A38398F9DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6657A41E-E043-9FA0-EF22-D4731EB0778C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6657A41E-E043-9FA0-EF22-D4731EB0778C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6657A41E-E043-9FA0-EF22-D4731EB0778C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6657A41E-E043-9FA0-EF22-D4731EB0778C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
