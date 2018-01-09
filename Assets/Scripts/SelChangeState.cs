@@ -6,20 +6,17 @@ public class SelChangeState : MonoBehaviour {
 
     public GameObject Sel;
     public GameObject Sel2;
+    public GoldRoom Bool;
+    public GameObject Dirt;
 
-	void Start () {
-        Sel.SetActive(false);
-        Sel2.SetActive(false);
-    }
-	
-	void OnMouseEnter () {
-        Sel.SetActive(true);
-        Sel2.SetActive(false);
-    }
 
     void OnMouseExit ()
     {
         Sel.SetActive(false);
-        Sel2.SetActive(true);
+        Bool = GetComponent<GoldRoom>();
+        if (Bool.buttondown == true)
+        {
+            Sel2.SetActive(true);
+        }
     }
 }

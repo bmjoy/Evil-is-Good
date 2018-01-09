@@ -33,7 +33,10 @@ QualitySettings:
     asyncUploadTimeSlice: 2
     asyncUploadBufferSize: 4
     resolutionScalingFixedDPIFactor: 1
-    excludedTargetPlatforms: []
+    excludedTargetPlatforms:
+    - Standalone
+    - iPhone
+    - Android
   - serializedVersion: 2
     name: Low
     pixelLightCount: 0
@@ -145,7 +148,10 @@ QualitySettings:
     asyncUploadTimeSlice: 2
     asyncUploadBufferSize: 4
     resolutionScalingFixedDPIFactor: 1
-    excludedTargetPlatforms: []
+    excludedTargetPlatforms:
+    - Android
+    - iPhone
+    - Standalone
   - serializedVersion: 2
     name: Ultra
     pixelLightCount: 4
@@ -173,7 +179,10 @@ QualitySettings:
     asyncUploadTimeSlice: 2
     asyncUploadBufferSize: 4
     resolutionScalingFixedDPIFactor: 1
-    excludedTargetPlatforms: []
+    excludedTargetPlatforms:
+    - Standalone
+    - iPhone
+    - Android
   m_PerPlatformDefaultQuality:
     Android: 2
     Nintendo 3DS: 5
@@ -182,7 +191,7 @@ QualitySettings:
     PSM: 5
     PSP2: 2
     Samsung TV: 2
-    Standalone: 5
+    Standalone: 2
     Tizen: 2
     WebGL: 3
     WiiU: 5
