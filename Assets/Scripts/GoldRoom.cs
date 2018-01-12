@@ -21,7 +21,6 @@ public class GoldRoom : MonoBehaviour {
 	
     public void Click ()
     {
-        
         if (Input.GetMouseButtonDown(0))
         {
             goldcounter = GetComponent<Text>();

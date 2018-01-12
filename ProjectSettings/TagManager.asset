@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Dirtblock
+  - Selection
+  - Land
+  - FPSMove
   layers:
   - Default
   - TransparentFX
@@ -23,8 +27,8 @@ TagManager:
   - FoW Object
   - WallCollision
   - Ground
-  - 
-  - 
+  - FortifiedWall
+  - HalfWall
   - 
   - 
   - 

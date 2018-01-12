@@ -13,8 +13,8 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: DefaultCompany
   productName: The Reapers' Dungeon
-  defaultCursor: {fileID: 0}
-  cursorHotspot: {x: 0, y: 0}
+  defaultCursor: {fileID: 2800000, guid: c801aceb1f9be624e8fed080b5207b3b, type: 3}
+  cursorHotspot: {x: 0, y: 2}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
@@ -557,11 +557,11 @@ PlayerSettings:
   webGLCompressionFormat: 1
   scriptingDefineSymbols:
     1: CROSS_PLATFORM_INPUT
-    4: CROSS_PLATFORM_INPUT;MOBILE_INPUT
-    7: CROSS_PLATFORM_INPUT;MOBILE_INPUT
-    14: MOBILE_INPUT
+    4: CROSS_PLATFORM_INPUT
+    7: CROSS_PLATFORM_INPUT
+    14: 
     17: MOBILE_INPUT
-    20: MOBILE_INPUT
+    20: 
     22: MOBILE_INPUT
   platformArchitecture: {}
   scriptingBackend: {}
@@ -649,7 +649,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: 516ef412-fe3e-4b11-ad1b-efea271ef78e
-  projectName: The Reapers' Dungeon
+  projectName: Evil  is Good
   organizationId: vencorr-inc
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
