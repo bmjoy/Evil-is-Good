@@ -8,6 +8,7 @@ TagManager:
   - Selection
   - Land
   - FPSMove
+  - Bedrock
   layers:
   - Default
   - TransparentFX
@@ -29,7 +30,7 @@ TagManager:
   - Ground
   - FortifiedWall
   - HalfWall
-  - 
+  - Marked Area
   - 
   - 
   - 

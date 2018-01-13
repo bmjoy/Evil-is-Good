@@ -253,35 +253,11 @@
     <Reference Include="UnityEditor.Graphs">
       <HintPath>D:/Applications/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.Android.Extensions">
-      <HintPath>D:/Applications/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions">
-      <HintPath>D:/Applications/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.LinuxStandalone.Extensions">
-      <HintPath>D:/Applications/Unity/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>D:/Applications/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.OSXStandalone.Extensions">
-      <HintPath>D:/Applications/Unity/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
-    </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
-    </Reference>
-    <Reference Include="RAIN">
-      <HintPath>Assets/RAIN/RAIN.dll</HintPath>
-    </Reference>
-    <Reference Include="RAINMetaform">
-      <HintPath>Assets/RAIN/RAINMetaform.dll</HintPath>
-    </Reference>
-    <Reference Include="RAINEditor">
-      <HintPath>Assets/RAIN/Editor/RAINEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="RAINMetaformEditor">
-      <HintPath>Assets/RAIN/Editor/RAINMetaformEditor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/Olama/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
@@ -303,12 +279,6 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/Olama/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>D:/Applications/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>D:/Applications/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -373,22 +343,20 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
-    <Compile Include="Assets\Propagate\example\scripts\Alarm.cs" />
-    <Compile Include="Assets\Propagate\example\scripts\MouseLook.cs" />
-    <Compile Include="Assets\Propagate\example\scripts\PropagateDemoMotor.cs" />
-    <Compile Include="Assets\Propagate\example\scripts\PropagateDoorTrigger.cs" />
-    <Compile Include="Assets\Propagate\scripts\AudioOccluder.cs" />
-    <Compile Include="Assets\Propagate\scripts\AudioPropagateNodeGroup.cs" />
-    <Compile Include="Assets\Propagate\scripts\PropagateProfile.cs" />
-    <Compile Include="Assets\Propagate\scripts\PropagateSound.cs" />
     <Compile Include="Assets\RTS_Camera\Scripts\RTS_Camera.cs" />
+    <Compile Include="Assets\Scripts\AudioOccluder.cs" />
+    <Compile Include="Assets\Scripts\AudioPropagateNodeGroup.cs" />
     <Compile Include="Assets\Scripts\DirtBlockHover.cs" />
     <Compile Include="Assets\Scripts\DisableAnimator.cs" />
+    <Compile Include="Assets\Scripts\FollowCursor.cs" />
     <Compile Include="Assets\Scripts\GoldRoom.cs" />
     <Compile Include="Assets\Scripts\LightFlicker.cs" />
     <Compile Include="Assets\Scripts\MiniMapZoom.cs" />
     <Compile Include="Assets\Scripts\MysteryBoxUncoverLand.cs" />
+    <Compile Include="Assets\Scripts\Possess.cs" />
     <Compile Include="Assets\Scripts\PossessRevert.cs" />
+    <Compile Include="Assets\Scripts\PropagateProfile.cs" />
+    <Compile Include="Assets\Scripts\PropagateSound.cs" />
     <Compile Include="Assets\Scripts\Quit.cs" />
     <Compile Include="Assets\Scripts\RedirectToLevel.cs" />
     <Compile Include="Assets\Scripts\Scroll.cs" />
@@ -396,10 +364,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AI\BehaviorTrees\DragonAI.txt" />
-    <None Include="Assets\Distortion\GrabPassDistortion\GrabPassDistortion.cginc" />
-    <None Include="Assets\Distortion\GrabPassDistortion\GrabPassDistortion.shader" />
-    <None Include="Assets\Distortion\GrabPassDistortion\GrabPassDistortion_Layer.shader" />
-    <None Include="Assets\Distortion\GrabPassDistortion\GrabPassDistortion_Particle.shader" />
     <None Include="Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
     <None Include="Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
     <None Include="Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
@@ -448,10 +412,6 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
     <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
-    <None Include="Assets\Propagate\Readme.txt" />
-    <None Include="Assets\RAIN\Editor\ScriptTemplates\BehaviorTreeTemplate.xml" />
-    <None Include="Assets\RAIN\Editor\Shaders\RAINShader.shader" />
-    <None Include="Assets\Scripts\Room Creator\Read Me.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
   </ItemGroup>
