@@ -1,38 +1,36 @@
-# Evil is Good!
-Based on Dungeon Keeper, and developed in Unity3D, you take a form of a 'Keeper' for a dungeon. You fight enemies, you battle Hereos, and you make the land evil again.
-
-Please, feel free to contribute if you want. It would be much appreciated.
-You can download this project and open it using Unity3D 2017.3.0f
-
-# Development?
-This project is currently in development. Don't worry, we are still working on it!
-
-# Information
-"The Reapers' Dungeon" is a Dungeon Keeper clone meant to improve the original 1997 game, but rewritten in C# and developed with Unity3D. It aims to provide the feel for a Dungeon Keeper 3 when there isn't one.
-
-# Goals
--Make Playable
-
--Work on creature models
-
--Work on models for Dungeon Heart
-
--Create a pathfinding AI
-
--Create a keeper AI, aswell as hero AI
-
--Optimize code and stop stealing crap from Unity Answers because I am lazy
-
--Make shadows around undiscovered area and make blocks digable
-
--Create menu and map select
-
--Create Credits
-
--Make traps & doors
-
--Make mystery boxes
+# It is Good to be Evil
+Evil is Good is a game based on the original *Dungeon Keeper* where you manage and build your own dungeon to kill your enemies and conquer the land. This is a clone of that game, that works on modern hardware running Windows, Mac, and Linux. Though you probably want to get to the good stuff. This game is open-source, meaning you can contribute to it, fork from it, and even download the source. It is all developed in Unity3D and will need to be built using Unity3D.
 
 
-# Note
-If you contribute, thank you for doing so. Make sure you add a little easter egg in there too to credit your work.
+# Notes
+### Development
+> Is Development still continuing?
+
+Yes! Of course! This project hasn't been discontinued yet! We will let you know when it is no longer being developed.
+
+### Goals
+
+* Create Creature, Heroes, and Enemy AI
+
+* Create Imps and make them have the ability to dig
+
+* Create Menu and Map Select
+
+* Create multiple maps
+
+* Create level outcome
+
+* Fix and Update UI
+
+* Create and replace textures from Google Images
+
+* Optimize Code
+
+* Work on Models
+
+* Create Credits
+
+### Contributing
+
+If you contibute, make sure you state what you fixed or added. Contribution is important for this project, as it helps keep the project active. Thannk you for contributing if you did! Much Appreciated.
+
