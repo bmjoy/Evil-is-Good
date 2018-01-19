@@ -3,12 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class FollowCursor : MonoBehaviour {
-    float zAxis = 2f;
-    Vector3 mousePosition;
 
-    void Update()
+    public float oldY;
+
+    private void Update()
     {
-        mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        mousePosition = new Vector3(mousePosition.x, 30, mousePosition.y);
+        RaycastHit hit;
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        if (Physics.Raycast(ray, out hit, 300))
+        {
+            transform.position.Set(hit.point.x, oldY, hit.point.z);
+        }
     }
 }

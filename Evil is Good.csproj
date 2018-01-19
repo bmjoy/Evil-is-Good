@@ -299,6 +299,15 @@
     <Compile Include="Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
     <Compile Include="Assets\FogOfWar\AutoClearRT.cs" />
     <Compile Include="Assets\FogOfWar\FogOfWarPlayer.cs" />
+    <Compile Include="Assets\GrindingSound.cs" />
+    <Compile Include="Assets\LoadBack.cs" />
+    <Compile Include="Assets\LoadGameAnimation.cs" />
+    <Compile Include="Assets\LoadGameTitle.cs" />
+    <Compile Include="Assets\MultiplayerBack.cs" />
+    <Compile Include="Assets\MultiplayerButton.cs" />
+    <Compile Include="Assets\NewGameTitle.cs" />
+    <Compile Include="Assets\PlayBack.cs" />
+    <Compile Include="Assets\PlayButton.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -343,16 +352,25 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
-    <Compile Include="Assets\RTS_Camera\Scripts\RTS_Camera.cs" />
+    <Compile Include="Assets\RTS_Camera\Scripts\RTSCamera.cs" />
     <Compile Include="Assets\Scripts\AudioOccluder.cs" />
     <Compile Include="Assets\Scripts\AudioPropagateNodeGroup.cs" />
+    <Compile Include="Assets\Scripts\Dig.cs" />
     <Compile Include="Assets\Scripts\DirtBlockHover.cs" />
     <Compile Include="Assets\Scripts\DisableAnimator.cs" />
     <Compile Include="Assets\Scripts\FollowCursor.cs" />
+    <Compile Include="Assets\Scripts\Fortified.cs" />
+    <Compile Include="Assets\Scripts\Fortifying.cs" />
     <Compile Include="Assets\Scripts\GoldRoom.cs" />
+    <Compile Include="Assets\Scripts\GoldSeam.cs" />
+    <Compile Include="Assets\Scripts\HoverOver.cs" />
     <Compile Include="Assets\Scripts\LightFlicker.cs" />
+    <Compile Include="Assets\Scripts\MapButton.cs" />
+    <Compile Include="Assets\Scripts\MarkerDestroy.cs" />
+    <Compile Include="Assets\Scripts\MenuButton.cs" />
     <Compile Include="Assets\Scripts\MiniMapZoom.cs" />
     <Compile Include="Assets\Scripts\MysteryBoxUncoverLand.cs" />
+    <Compile Include="Assets\Scripts\OpenAndCloseMultiplayer.cs" />
     <Compile Include="Assets\Scripts\Possess.cs" />
     <Compile Include="Assets\Scripts\PossessRevert.cs" />
     <Compile Include="Assets\Scripts\PropagateProfile.cs" />
@@ -360,7 +378,7 @@
     <Compile Include="Assets\Scripts\Quit.cs" />
     <Compile Include="Assets\Scripts\RedirectToLevel.cs" />
     <Compile Include="Assets\Scripts\Scroll.cs" />
-    <Compile Include="Assets\Scripts\TitleScreenButtons.cs" />
+    <Compile Include="Assets\Scripts\TitleButtons.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AI\BehaviorTrees\DragonAI.txt" />
@@ -372,6 +390,7 @@
     <None Include="Assets\FogOfWar\FogOfWarMask.shader" />
     <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
     <None Include="Assets\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\GUITest.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
